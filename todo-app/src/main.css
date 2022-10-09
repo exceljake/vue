@@ -152,12 +152,12 @@ input[type="checkbox"] {
 }
 
 .bubble.house::after {
-    border-color: var(--house);
+    background-color: var(--house);
     box-shadow: var(--house);
 }
 
 .bubble.social::after {
-    border-color: var(--social);
+    background-color: var(--social);
     box-shadow: var(--social);
 }
 
@@ -179,9 +179,9 @@ input:checked~.bubble::after {
     font-size: 1.125rem;
     padding: 1rem 1.5rem;
     color: #FFF;
-    background-color: var(--primary);
+    background-color: var(--business);
     border-radius: 0.5rem;
-    box-shadow: var(--personal-glow);
+    box-shadow: var(--business-glow);
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
